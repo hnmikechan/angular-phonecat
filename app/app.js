@@ -5,7 +5,10 @@ var phonecatApp = angular.module('phonecatApp', []);
 
 // Define the `PhoneListController` controller on the `phonecatApp` module
 phonecatApp.controller('PhoneListController', function PhoneListController($scope) {
-  $scope.phones = [
+
+$scope.name = 'world'; //added by Mike
+
+$scope.phones = [
     {
       name: 'Nexus S',
       snippet: 'Fast just got faster with Nexus S.'
