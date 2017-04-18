@@ -13,7 +13,11 @@
         <select ng-model="$ctrl.orderProp">
           <option value="name">Alphabetical</option>
           <option value="age">Newest</option>
+          <option value="-age">Oldest</option>
         </select>
+      </p>
+      <p>
+          {{$ctrl.orderProp}}
       </p>
 
     </div>
